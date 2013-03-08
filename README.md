@@ -12,7 +12,7 @@ TODO
 
 ## Dependency
 
-Tornado Content Negotiation depends on the httpheader.py by Deron Meranda. For more information, see:
+Tornado Content Negotiation depends on the httpheader.py by Deron Meranda for the actual parsing of the Accept HTTP Header. For more information, see:
 
 - http://deron.meranda.us/python/httpheader
 - https://github.com/dmeranda/httpheader
