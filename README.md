@@ -1,7 +1,23 @@
-Tornado Content Negotiation [![Build Status](https://travis-ci.org/globocom/tornado_content_negotiation.png?branch=master)](https://travis-ci.org/globocom/tornado_content_negotiation)
-===========================
+# Tornado Content Negotiation [![Build Status](https://travis-ci.org/globocom/tornado_content_negotiation.png?branch=master)](https://travis-ci.org/globocom/tornado_content_negotiation)
 
-Content Negotiation module for Tornado
+Content Negotiation module for Tornado.
+
+## Installing
+
+TODO
+
+## Using
+
+TODO
+
+## Dependency
+
+Tornado Content Negotiation depends on the httpheader.py by Deron Meranda. For more information, see:
+
+- http://deron.meranda.us/python/httpheader
+- https://github.com/dmeranda/httpheader
+
+For convenience, this module is included here.
 
 ## License
 
