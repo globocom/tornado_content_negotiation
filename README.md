@@ -4,7 +4,9 @@ Content Negotiation module for Tornado.
 
 ## Installing
 
-TODO
+```
+pip install tornado_content_negotiation
+```
 
 ## Using
 
