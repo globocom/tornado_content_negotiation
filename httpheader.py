@@ -3,7 +3,7 @@
 #
 """ Utility functions to work with HTTP headers.
 
- See http://deron.meranda.us/python/httpheader/ and https://github.com/dmeranda/httpheader
+ See http://deron.meranda.us/python/httpheader and https://github.com/dmeranda/httpheader
 
  This module provides some utility functions useful for parsing
  and dealing with some of the HTTP 1.1 protocol headers which
