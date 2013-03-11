@@ -10,7 +10,37 @@ pip install tornado_content_negotiation
 
 ## Using
 
-TODO
+Content Negotiation works by determining the best match content type based on the request's Accept header and the content types that your server is able to generate.
+
+Add the ContentNegotiation mixin to your handler and define the content types your server is able to generate:
+
+```
+class HandlerWithContentNegotiation(ContentNegotiation, RequestHandler):
+	
+	def __init__(self, *args, **kwargs):
+        content_types = ['application/json; charset=UTF-8', 'text/html; charset=UTF-8']
+        super(ContentNegotiationHandler, self).__init__(negotiable_server_content_types=content_types,
+        												*args,
+        												**kwargs)
+```
+
+Set response's content type with the best match:
+
+```
+self.set_negotiated_content_type_header() # Content-Type: application/json; charset=UTF-8
+```
+
+Return best match content type:
+
+```
+self.negotiated_content_type() # application/json; charset=UTF-8
+```
+
+Return best match mime type:
+
+```
+self.negotiated_mime_type() # application/json
+```
 
 ## Dependency
 
