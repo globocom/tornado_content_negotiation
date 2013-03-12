@@ -42,15 +42,6 @@ Return best match mime type:
 self.negotiated_mime_type() # application/json
 ```
 
-## Dependency
-
-Tornado Content Negotiation depends on the httpheader.py by Deron Meranda for the actual parsing of the Accept HTTP Header. For more information, see:
-
-- http://deron.meranda.us/python/httpheader
-- https://github.com/dmeranda/httpheader
-
-For convenience, this module is included here.
-
 ## License
 
 Tornado Content Negotiation is licensed under the MIT License:
