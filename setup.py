@@ -14,7 +14,7 @@ def readfile(file_name):
 setup(
     name='tornado_content_negotiation',
     description='Content Negotiation module for Tornado.',
-    version='0.2.0',
+    version='0.2.1',
     keywords='tornado content-negotiation',
     author='globo.com',
     author_email='guilherme.cirne@corp.globo.com',
@@ -32,6 +32,6 @@ setup(
                    'Topic :: Software Development :: Libraries',
     ],
     include_package_data=True,
-    py_modules = ['tornado_content_negotiation', 'httpheader'],
+    py_modules = ['tornado_content_negotiation'],
     install_requires=[requirement for requirement in readfile('requirements.txt').split('\n') if requirement],
 )
