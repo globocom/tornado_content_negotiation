@@ -14,7 +14,7 @@ def readfile(file_name):
 setup(
     name='tornado_content_negotiation',
     description='Content Negotiation module for Tornado.',
-    version='0.2.1',
+    version='0.2.2',
     keywords='tornado content-negotiation',
     author='globo.com',
     author_email='guilherme.cirne@corp.globo.com',
