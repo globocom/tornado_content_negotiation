@@ -1,2 +1,2 @@
-mimeparse
+python-mimeparse
 tornado
